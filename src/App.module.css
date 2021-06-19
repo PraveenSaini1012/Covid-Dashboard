@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(90deg,red , yellow);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+footer{
+  width:100vw;
+  height:3rem;
+  background-color: black;
+  margin-top: auto;
+}
+footer p{
+  color: #fff;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

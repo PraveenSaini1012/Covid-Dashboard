@@ -1,0 +1,43 @@
+#table-container{
+    width:60%;
+    height:400px;
+    position:relative;
+    overflow:scroll;
+    padding:0;
+    margin:20px auto;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+}
+h2 {
+    margin: 0;
+}
+#states {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #states td, #states th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #states thead{position:sticky;top:0;
+    left:0;
+    }
+
+  #states tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #states tr:nth-child(odd){background-color: #ddd;}
+  
+  #states th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+  @media screen and (max-width: 960px){
+    #table-container{
+        width:98%;
+    }
+  }
