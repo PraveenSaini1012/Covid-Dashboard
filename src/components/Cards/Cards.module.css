@@ -16,3 +16,8 @@
 .deaths{
   border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }
+@media screen and (max-width: 600px) {
+  .MuiTypography-h4 {
+    font-size: 1.8rem;
+  }
+}
