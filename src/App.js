@@ -9,7 +9,7 @@ const App = () =>{
   const [data, setData] = useState({});
   const [state, setState] = useState([]);
   
-const url = 'https://api.covid19india.org/data.json';
+const url = 'https://data.covid19india.org/data.json';
 
 const fetchData = async () => {
   try {
